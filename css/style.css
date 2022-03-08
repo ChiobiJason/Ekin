@@ -1,0 +1,120 @@
+/* Navigation Bar */
+#navigation-bar {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.nav-item {
+  padding: 20px;
+}
+
+/* Promo */
+.promo {
+  background-color: #9C51E0;
+  color: white;
+}
+
+.app {
+  width: 100%
+}
+
+.promo-text {
+  padding-top: 30px;
+  font-family: 'Quicksand-Regular', sans-serif;
+  font-size: 8rem;
+  text-align: left;
+}
+
+.store {
+  text-align: center;
+  margin: 20px 20px 2px 20px;
+}
+
+@media (min-width: 758px) and (max-width: 601px) {
+  .promo-text {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 600px) and (min-width: 500px) {
+  .promo-text {
+    font-size: 3.5rem;
+  }
+}
+
+/* Products */
+#products {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.5rem;
+  background-color: #BC8CF2;
+  text-align: left;
+  padding: 80px 40px;
+}
+
+.product-heading {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
+}
+
+.product-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .last-product {
+    padding-left: 100px;
+  }
+
+  .lst-img {
+    margin: 0px, 0px, 0px, 100px;
+    text-align: center;
+  }
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #EEEEEE;
+  text-align: center;
+  padding: 100px;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.testimony {
+  font-family: 'Barlow', sans-serif;
+}
+
+/* Partners */
+#partners {
+  background-color: #B667F1;
+  text-align: center;
+}
+
+.partner-img {
+  width: 400px;
+  height: 300px;
+  padding: 50px;
+}
+
+.partner-label {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 4rem;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #BEAEE2;
+  font-size: 1.5rem;
+  font-family: 'Barlow', sans-serif;
+}
+
+.icon {
+  padding: 10px;
+}
