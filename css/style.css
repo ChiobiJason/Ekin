@@ -35,7 +35,7 @@
   }
 }
 
-@media (max-width: 600px) and (min-width: 500px) {
+@media (max-width: 600px) {
   .promo-text {
     font-size: 3.5rem;
   }
